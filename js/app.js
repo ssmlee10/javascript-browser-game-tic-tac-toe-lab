@@ -130,3 +130,5 @@ function switchPlayerTurn() {
 squareEls.forEach(squareEl => {
     squareEl.addEventListener('click', handleClick);
 });
+
+resetBtnEl.addEventListener('click', init);
